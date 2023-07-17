@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+body {
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    max-width: 450px;
+    margin: 3rem auto 0;
+    background-color: #fdfdfd;
+    padding: 0.5rem 1.5rem;
+    border-radius: 12px;
+}
+
+.header-container {
+    text-align: center;
+    padding: 1rem;
+}
+
+.header-container h1 {
+    color: #1a2c74;
+}
+
+.create-container {
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-container label {
+    font-weight: 600;
+    font-size: medium;
+}
+
+.input-container {
+    display: flex;
+    margin-top: 8px;
+}
+
+input {
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: 1px solid grey;
+    flex-grow: 1;
+    margin-right: 8px;
+}
+
+button {
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: #41aff9;
+}
+.edit-button {
+    background-color: #128fb6;
+}
+.exclude-button {
+    background-color: #d11a2a;
+}
+.save-button {
+    background-color: #1dbf79;
+}
+
+.add-button span, .exclude-button span, .edit-button span, .save-button span {
+    color: white;
+}
+
+.divisor {
+    border-bottom: 1px solid;
+    border-color: #4A5568;
+}
+
+.tarefas-container {
+    padding: 1rem 0.5rem;
+}
+
+.tarefas-lista {
+    list-style: none;
+}
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.button-list-container {
+    display: flex;
+}
+
+.button-list-container button{
+    display: flex;
+    margin-left: 8px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
